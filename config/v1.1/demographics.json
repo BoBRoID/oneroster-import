@@ -1,6 +1,6 @@
 [
   {
-    "columnId": "userSourcedId",
+    "columnId": "sourcedId",
     "required": true,
     "format": "string",
     "description": "SourcedId of the user to which the demographcis refer. Typically this will be a student."

@@ -14,7 +14,7 @@ class DemographicTest extends TestCase
 
     public function testGetUsers()
     {
-        $entity = $this->getEntity('userSourcedId');
+        $entity = $this->getEntity('sourcedId');
 
         $this->assertInstanceOf(User::class, $entity->getUser());
     }
@@ -62,7 +62,6 @@ class DemographicTest extends TestCase
             ->willReturn(new ArrayCollection([
                     'demographics' => [
                         'sourcedId' => '12345',
-                        'userSourcedId' => 'user_id',
                     ],
                 ])
             );

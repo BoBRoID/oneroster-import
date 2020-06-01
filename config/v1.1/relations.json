@@ -54,7 +54,7 @@
         "index": "orgSourcedIds"
       },
       "demographics": {
-        "index": "userSourcedId"
+        "index": "sourcedId"
       },
       "enrollments": {
         "index": "userSourcedId"
@@ -110,7 +110,7 @@
   "demographics": {
     "relations": {
       "users": {
-        "index": "userSourcedId"
+        "index": "sourcedId"
       }
     }
   }
