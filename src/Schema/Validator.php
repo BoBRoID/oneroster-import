@@ -63,7 +63,7 @@ class Validator
             $value = $dataRow[$columnIdentifier];
 
             if ($format === 'boolean') {
-                $value = boolval($value);
+                $value = filter_var($value, FILTER_VALIDATE_BOOLEAN);
             }
 
             if ($format === 'date' || $format === 'datetime') {
