@@ -26,7 +26,7 @@
   {
     "columnId": "sex",
     "required": false,
-    "format": "boolean",
+    "format": "string",
     "description": "“Female” | “Male”"
   },
   {
