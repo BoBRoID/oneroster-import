@@ -43,6 +43,9 @@
       "enrollments": {
         "index": "classSourcedId"
       },
+      "courses": {
+        "index": "courseSourcedId"
+      },
       "academicSessions": {
         "index": "termSourcedId"
       }

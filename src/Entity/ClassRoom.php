@@ -28,6 +28,15 @@ class ClassRoom extends AbstractEntity
         return $this->getParentRelationEntity(AcademicSession::class);
     }
 
+    /**
+     * @return \Doctrine\Common\Collections\ArrayCollection|EntityInterface
+     * @throws \Exception
+     */
+    public function getCourse()
+    {
+        return $this->getParentRelationEntity(Course::class);
+    }
+
     /** @return  string */
     public static function getType()
     {
